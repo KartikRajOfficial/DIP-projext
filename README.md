@@ -315,18 +315,3 @@ Expected output:
 
 ---
 
-## 📄 Patent Claims Summary
-
-1. A method for **automatic noise profile detection** using statistical feature extraction to characterise noise type, intensity, and spatial distribution.
-
-2. A **region-aware image segmentation** technique that partitions images into smooth, edge, and texture regions using combined Canny edge detection, gradient magnitude, and local variance analysis.
-
-3. An **adaptive multi-filter denoising pipeline** that assigns different filters to different structural regions based on the detected noise profile.
-
-4. A **machine learning-based filter weight optimization** system using multi-output regression to predict optimal blend weights for multi-filter fusion.
-
-5. A **multi-filter fusion engine** that combines multiple denoising filter outputs using learned weights, with a region-aware variant applying different weight adjustments per structural region.
-
-6. An **edge preservation score (EPS) metric** that quantifies structural edge fidelity post-denoising by computing the overlap ratio of Canny edge maps.
-
-7. A **self-learning feedback system** that accumulates processing experience and augments training data for continuous model improvement.
